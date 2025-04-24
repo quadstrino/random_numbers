@@ -52,9 +52,9 @@ Next
 Randomize
 For i = num_of_entries - 1 To 1 Step -1
     j = Int(Rnd * (i + 1))
-    _number = numbers(i)
+    number_ = numbers(i)
     numbers(i) = numbers(j)
-    numbers(j) = _number
+    numbers(j) = number_
 Next
 
 ' === Type values into spreadsheet ===
